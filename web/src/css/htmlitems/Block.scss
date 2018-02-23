@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+
+$uiFontFace: Roboto, Helvetica;
+
+.block {
+    min-width: 200px;
+    opacity: 0.85;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.67);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.67);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-bottom: 10px;
+
+    .blockHead {
+        font-family: $uiFontFace;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #42858c;
+        color:#FFF;
+        padding: 10px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .blockContent {
+        font-family: $uiFontFace;
+        font-size: 12px;
+        font-weight: 400;
+        background-color: #FFF;
+        padding: 10px;
+        color: #444;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+}

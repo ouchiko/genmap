@@ -1,0 +1,15 @@
+
+
+.container {
+    .mapContainer {
+        z-index: 1 !important;
+    }
+
+    .uiContainer {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 2;
+    }
+
+}
